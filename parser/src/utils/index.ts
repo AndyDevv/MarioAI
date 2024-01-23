@@ -1,0 +1,1 @@
+export { Dim2 } from './dim2'; 

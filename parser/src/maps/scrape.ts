@@ -13,7 +13,6 @@ async function downloadImage(url: string, filepath: string): Promise<void> {
   fs.writeFileSync(filepath, buffer);
 }
 
-// Function to fetch and parse the HTML, then download images
 async function scrapeImages(): Promise<void> {
   try {
     const response = await fetch(baseUrl);
